@@ -62,7 +62,23 @@ class CalculationController : UIViewController, UITextFieldDelegate{
     }
     
     
-    
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+        //print("Current Text: \(textField.text)")
+        //print("Replacement String: \(string)")
+        
+        if string.uppercaseString.rangeOfCharacterFromSet(NSCharacterSet.uppercaseLetterCharacterSet()) != nil{
+            return false
+        }
+        
+        let existingTextHasDecimalSeparator = textField.text?.rangeOfString(".")
+        let replacementStringHasDecimalSeparator = string.rangeOfString(".")
+        
+        if existingTextHasDecimalSeparator != nil && replacementStringHasDecimalSeparator != nil{
+            return false;
+        } else {
+            return true;
+        }
+    }
     
     
        
