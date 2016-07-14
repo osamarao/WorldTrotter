@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7C56CC7E1D30689100D2AD58 /* CalculationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56CC7D1D30689100D2AD58 /* CalculationController.swift */; };
+		7C596C511D3715390013026A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C596C501D3715390013026A /* MapKit.framework */; };
 		7C7C65501D1C9549005E9354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7C654F1D1C9549005E9354 /* AppDelegate.swift */; };
 		7C7C65551D1C9549005E9354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7C65531D1C9549005E9354 /* Main.storyboard */; };
 		7C7C65571D1C9549005E9354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C7C65561D1C9549005E9354 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		7C56CC7D1D30689100D2AD58 /* CalculationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculationController.swift; sourceTree = "<group>"; };
+		7C596C501D3715390013026A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7C7C654C1D1C9549005E9354 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C7C654F1D1C9549005E9354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C7C65541D1C9549005E9354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C596C511D3715390013026A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		7C7C65431D1C9549005E9354 = {
 			isa = PBXGroup;
 			children = (
+				7C596C501D3715390013026A /* MapKit.framework */,
 				7C7C654E1D1C9549005E9354 /* WorldTrotter */,
 				7C7C654D1D1C9549005E9354 /* Products */,
 			);
